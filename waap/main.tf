@@ -1,8 +1,7 @@
-# export VES_P12_PASSWORD=password of p12 file 
 
   #export VES_P12_PASSWORD=password
-  #export VOLT_API_P12_FILE=/Users/backer/F5/witcher/terraform/dcp/apacpoc2-sb-tf.p12
-  #export VOLT_API_URL=https://apacpoc2.console.ves.volterra.io/api
+  #export VOLT_API_P12_FILE= location of key file 
+  #export VOLT_API_URL=https://tenant.console.ves.volterra.io/api
 
 terraform {
   required_providers {
