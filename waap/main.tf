@@ -13,11 +13,11 @@ terraform {
 }
 
 variable "api_url"{
-  default="https://apacpoc2.console.ves.volterra.io/api"
+  default="https://tenant.console.ves.volterra.io/api"
 }
 
 variable "api_p12_file"{
-  default="/Users/backer/F5/witcher/terraform/dcp/apacpoc2-sb-tf.p12"
+  default=" location of key file 
 }
 
 module "web-app-security" {
